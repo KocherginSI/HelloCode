@@ -1,4 +1,4 @@
-﻿//git commit -m "gitignore_test_3"
+﻿//Untrack file: Example002_HelloUser\Example002_HelloUser.csproj
 Console.Write("Enter your name: ");
 string username = Console.ReadLine();
 Console.Write("Hello, ");
