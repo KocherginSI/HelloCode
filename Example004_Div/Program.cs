@@ -7,4 +7,3 @@ Console.WriteLine(numberB);
 double result = numberA / numberB;
 Console.Write("Quotient:");
 Console.WriteLine(result);
-
