@@ -13,15 +13,15 @@
 }
 
 
-int a1 = 15;
+int a1 = 150;
 int b1 = 175;
-int c1 = -45;
+int c1 = 554;
 int a2 = 874;
 int b2 = 263;
-int c2 = 17;
-int a3 = 22;
-int b3 = 5;
-int c3 = 40;
+int c2 = 417;
+int a3 = 252;
+int b3 = 594;
+int c3 = 900;
 
 // int max = a1;
 // if (b1 > max) max = b1;
@@ -36,12 +36,15 @@ int c3 = 40;
 // if (c3 > max) max = c3;
 
 
-int max1 = Max(a1, b1, c1);
-int max2 = Max(a2, b2, c2);
-int max3 = Max(a3, b3, c3);
-int max = Max(max1, max2, max3);
+// int max1 = Max(a1, b1, c1);
+// int max2 = Max(a2, b2, c2);
+// int max3 = Max(a3, b3, c3);
+// int max = Max(max1, max2, max3);
 
-System.Console.WriteLine(max1);
-System.Console.WriteLine(max2);
-System.Console.WriteLine(max3);
+
+int max = Max(Max(a1, b1, c1), Max(a2, b2, c2), Max(a3, b3, c3));
+
+// System.Console.WriteLine(max1);
+// System.Console.WriteLine(max2);
+// System.Console.WriteLine(max3);
 System.Console.WriteLine(max);

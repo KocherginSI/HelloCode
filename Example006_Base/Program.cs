@@ -23,4 +23,3 @@ if (d > max) max = d;
 if (e > max) max = e;
 
 Console.WriteLine(max);
-
